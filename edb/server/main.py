@@ -212,7 +212,7 @@ def run_server(args):
             'log_disconnections': 'yes',
             'log_min_messages': 'INFO',
             'client_min_messages': 'INFO',
-            'listen_addresses': '',  # we use Unix sockets
+            'listen_addresses': '0.0.0.0',  # we use Unix sockets
             'unix_socket_permissions': '0700',
             # We always enforce UTC timezone:
             # * timestamptz is stored in UTC anyways;
