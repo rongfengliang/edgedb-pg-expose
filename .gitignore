@@ -22,7 +22,7 @@ __pycache__/
 docs/_build
 /AUTHORS
 /ChangeLog
-
+.idea/**
 /.coverage*
 /htmlcov
 venv/**
